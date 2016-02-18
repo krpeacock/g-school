@@ -1,13 +1,27 @@
-body{
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.first, .second {
-  width: 100%;
-  height: 100%;
+html, body{
+  margin:8px;
   vertical-align: center;
-  align-content: center;
+}
+p {
+  columns: 3;
+}
+.stretch{
+  position:absolute;
+  clear:all;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100vh;
+  background-color: blue;
+}
+.wrapper{
+  position:relative;
+  float: left;
+  clear: top;
+}
+.first, .second {
+  vertical-align: center;
+  justify-content: center;
 }
 .img_box {
   height:200px;
