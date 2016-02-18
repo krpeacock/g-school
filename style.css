@@ -1,0 +1,11 @@
+body{
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.first {
+  width: 100%;
+  height: 100%;
+  vertical-align: center;
+  align-content: center;
+}
