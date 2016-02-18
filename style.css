@@ -3,9 +3,15 @@ body{
   margin-left: auto;
 }
 
-.first {
+.first, .second {
   width: 100%;
   height: 100%;
   vertical-align: center;
   align-content: center;
+}
+.img_box {
+  height:200px;
+  width: 200px;
+  background-color: gray;
+  font-style: white;
 }
